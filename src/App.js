@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div>
       <h2>Lets's get started!</h2>
-      <p> This is also visable!</p>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
